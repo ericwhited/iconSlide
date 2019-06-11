@@ -9,13 +9,13 @@
 }
 
 .navigation, .navigation-list {
-    width: 250px;
-    height: 50px;
+    width: 425px;
+    height: 70px;
 }
 
 .navigation {
-    background: rgb(59, 59, 59);
-    margin: 200px auto;
+    border: rgb(59, 59, 59);
+    margin: 0 auto;
 }
 
 .navigation-list {
@@ -34,6 +34,7 @@
     /* margin: 0 auto; */
     transition: all 0.4s;
     transition-timing-function: ease-in-out;
+    height: 100%;
 }
 
 .nav-icon {
@@ -44,4 +45,20 @@
 
 .is-active {
     flex: 2;
+}
+
+.bell {
+    background: #D51515;
+}
+
+.messages {
+    background: rgb(229, 179, 16)
+}
+
+.profile {
+    background: #104E5A;
+}
+
+.settings {
+    background: #040b11;
 }
